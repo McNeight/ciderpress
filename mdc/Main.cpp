@@ -13,7 +13,7 @@
 #include "ProgressDlg.h"
 #include "resource.h"
 #include "../diskimg/DiskImg.h"
-#include "../zlib/zlib.h"
+#include "zlib.h"
 
 const WCHAR* kWebSiteURL = L"http://www.a2ciderpress.com/";
 

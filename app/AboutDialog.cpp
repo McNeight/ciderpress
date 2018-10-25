@@ -13,7 +13,7 @@
 #include "resource.h"
 #include "../nufxlib/NufxLib.h"
 #include "../diskimg/DiskImg.h"
-#include "../zlib/zlib.h"
+#include "zlib.h"
 
 
 BEGIN_MESSAGE_MAP(AboutDialog, CDialog)

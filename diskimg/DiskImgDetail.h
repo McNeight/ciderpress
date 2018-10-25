@@ -15,7 +15,7 @@
 #define DISKIMG_DISKIMGDETAIL_H
 
 #include "../nufxlib/NufxLib.h"
-#include "../zlib/zlib.h"
+#include "zlib.h"
 
 #include "DiskImg.h"
 

@@ -19,13 +19,13 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v120_xp</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -164,9 +164,6 @@
   <ItemGroup>
     <ProjectReference Include="..\nufxlib\nufxlib.vcxproj">
       <Project>{c48ae53b-3dcb-43b1-9207-b7c5b6bb78af}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\zlib\zlib.vcxproj">
-      <Project>{b66109f4-217b-43c0-86aa-eb55657e5ac0}</Project>
     </ProjectReference>
     <ProjectReference Include="libhfs\libhfs.vcxproj">
       <Project>{0fa742e9-8c07-43dd-aff8-ce31faf70821}</Project>
